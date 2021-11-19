@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="99e44d3b-630d-44a2-aa6b-3f6c530b75f0" name="saccnode">
+        <fileTransfer accessType="SFTP" host="15.165.77.159" port="22" sshConfigId="bfc322f3-3787-46cb-ac70-2c266f599376" sshConfig="ubuntu@15.165.77.159:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
