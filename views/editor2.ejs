@@ -2,48 +2,23 @@
     <head>
        <meta charset="utf-8">
         <title>CKEditor 5 – Classic editor</title>
-    <script src="/public/ckeditor5-build-classic-2/ckeditor.js"></script>
-    </head>
+    <script src="static/ckeditor-3/ckeditor.js"></script>
+    <link href="static/ckeditor-3/plugins/codesnippet/lib/highlight/styles/default.css" rel="stylesheet">
+    <script src="static/ckeditor-3/plugins/codesnippet/lib/highlight/highlight.pack.js"></script>
+
+</head>
     <body>
-        <h1>Classic editor</h1>
-
-
-        <div id="editor">
-            <p>Here goes the initial content of the editor.</p>
-        </div>
-
-
-
+    <form>
+            <textarea name="editor1" id="editor1" rows="10" cols="80">
+                This is my textarea to be replaced with CKEditor 4.
+            </textarea>
         <script>
-
-            // ClassicEditor
-            //
-            //     .create(document.querySelector('#editor'), {
-            //
-            //         codeBlock: {
-            //             languages: [
-            //                 { language: 'css', label: 'CSS' },
-            //                 { language: 'html', label: 'HTML' }
-            //             ]
-            //         }
-            //     })
-
-            import CodeBlock from '@ckeditor/ckeditor5-code-block/src/codeblock';
-
-            ClassicEditor
-                .create( document.querySelector( '#editor' ), {
-                    plugins: [ CodeBlock, ... ],
-                    toolbar: [ 'codeBlock', ... ]
-                } );
-                .then( ... )
-                .catch( ... );
-
-                .then( editor => {
-                    console.log( editor );
-                } )
-                .catch( error => {
-                    console.error( error );
-                } );
+            // Replace the <textarea id="editor1"> with a CKEditor 4
+            // instance, using default configuration.
+            CKEDITOR.replace( 'editor1' );
         </script>
+    </form>
+
+
     </body>
 </html>
