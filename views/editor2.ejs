@@ -2,11 +2,10 @@
     <head>
        <meta charset="utf-8">
         <title>CKEditor 5 – Classic editor</title>
-        <script src="[ckeditor5-build-classic]/build/ckeditor.js"></script>
+    <script src="/public/ckeditor5-build-classic-2/ckeditor.js"></script>
     </head>
     <body>
         <h1>Classic editor</h1>
-
 
 
         <div id="editor">
@@ -16,8 +15,29 @@
 
 
         <script>
+
+            // ClassicEditor
+            //
+            //     .create(document.querySelector('#editor'), {
+            //
+            //         codeBlock: {
+            //             languages: [
+            //                 { language: 'css', label: 'CSS' },
+            //                 { language: 'html', label: 'HTML' }
+            //             ]
+            //         }
+            //     })
+
+            import CodeBlock from '@ckeditor/ckeditor5-code-block/src/codeblock';
+
             ClassicEditor
-                .create( document.querySelector( '#editor' ) )
+                .create( document.querySelector( '#editor' ), {
+                    plugins: [ CodeBlock, ... ],
+                    toolbar: [ 'codeBlock', ... ]
+                } );
+                .then( ... )
+                .catch( ... );
+
                 .then( editor => {
                     console.log( editor );
                 } )

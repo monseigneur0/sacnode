@@ -3,7 +3,7 @@ const app = express();
 const port = 8001;
 const path = require( "path" );
 
-app.use( '/static', express.static( __dirname + '/statics' ));
+app.use( '/static', express.static( __dirname + '/public' ));
 
 app.set( "view engine", "ejs");
 app.set( "views", __dirname + "/views" );
@@ -18,6 +18,9 @@ app.listen( port, () => {
 app.get( '/form', ( req, res )   => {
     res.render( 'editor2' );
 });
-app.get( '/form3', ( req, res )   => {
-    res.render( 'editor3' );
+app.get( '/form4', ( req, res )   => {
+    res.render( 'editor4' );
 });
+
+const currentDirectory = __dirname
+console.log(currentDirectory)

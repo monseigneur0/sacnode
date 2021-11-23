@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="utf-8">
+    <title>CKEditor1</title>
+<!--    <script src="static/ckeditor5-build-classic-2/ckeditor.js"></script>-->
+    <script src="static/ckeditor5-31/build/ckeditor.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+</head>
+<body>
+
+<textarea name="editor1" id="editor1" rows="10" cols="80"></textarea>
+
+<input type="text" id="texts">
+<button type="button"></button>
+<div id="my"></div>
+
+<iframe srcdoc="<h1>멍멍</h1>"></iframe>
+<iframe id="if1" srcdoc="<h2>멍멍</h2>"></iframe>
+<script>
+    $(function() {
+        $("button").on("click", function() {
+            $("#my").html("<iframe srcdoc='<h3>멍멍</h3>'>몽몽</iframe>");
+            $('#if1').contents().find('html').html($("#texts").val());
+            $('#if1').contents().find('html').html($("#editor1").val());
+            $('#if1').contents().find('html').html($(".language-html").text());
+        });
+    });
+    ClassicEditor
+        .create( document.querySelector( '#editor1' ) )
+        .catch( error => {
+            console.error( error );
+        } );
+</script>
+</body>
+</html>
