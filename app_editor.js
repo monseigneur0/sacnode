@@ -22,5 +22,14 @@ app.get( '/form4', ( req, res )   => {
     res.render( 'editor4' );
 });
 
+app.get( '/form6', ( req, res )   => {
+    res.render( 'editor6' );
+});
+
+app.get( '/form5', ( req, res )   => {
+    res.render( 'editor5' );
+});
+
 const currentDirectory = __dirname
 console.log(currentDirectory)
+

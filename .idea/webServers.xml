@@ -2,8 +2,8 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="99e44d3b-630d-44a2-aa6b-3f6c530b75f0" name="saccnode">
-        <fileTransfer accessType="SFTP" host="15.165.77.159" port="22" sshConfigId="bfc322f3-3787-46cb-ac70-2c266f599376" sshConfig="ubuntu@15.165.77.159:22 key" keyPair="true">
+      <webServer id="b837bbd5-0efe-4855-b184-130e11ac981e" name="sacnode">
+        <fileTransfer accessType="SFTP" host="15.165.77.159" port="22" sshConfigId="bab1ed9a-9177-4e6e-947a-1cbf56d65607" sshConfig="ubuntu@15.165.77.159:22 key" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
