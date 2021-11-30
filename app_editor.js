@@ -26,11 +26,24 @@ app.get( '/form6', ( req, res )   => {
     res.render( 'editor6' );
 });
 
+app.get( '/form61', ( req, res )   => {
+    res.render( 'editor61' );
+});
+
 app.get( '/form7', ( req, res )   => {
     res.render( 'editor7' );
 });
+//light prism
 app.get( '/form8', ( req, res )   => {
     res.render( 'editor8' );
+});
+// dark prism
+app.get( '/form9', ( req, res )   => {
+    res.render( 'editor9' );
+});
+//codemirror
+app.get( '/form92', ( req, res )   => {
+    res.render( 'editor92' );
 });
 
 app.get( '/form5', ( req, res )   => {
