@@ -3,7 +3,8 @@
     <title>Code Editor</title>
     <h1>simple and free6</h1>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link rel=stylesheet href="static/codemirror/lib/codemirror.css">
     <link rel=stylesheet href="static/codemirror/doc/docs.css">
     <script src="static/codemirror/lib/codemirror.js"></script>
@@ -12,54 +13,62 @@
     <script src="static/codemirror/mode/css/css.js"></script>
     <script src="static/codemirror/mode/htmlmixed/htmlmixed.js"></script>
     <script src="static/codemirror/addon/edit/matchbrackets.js"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="static/codemirror/theme/dracula.css" rel="stylesheet">
+
     <style>
         .CodeMirror { height: auto; border: 1px solid #ddd; }
         .CodeMirror-scroll { max-height: 200px; }
 
-        body {
-            text-align: left;
-        }
-
-        /*textarea {*/
-        /*    width: 32%;*/
-        /*    float: top;*/
-        /*    min-height: 250px;*/
-        /*    overflow: scroll;*/
-        /*    margin: auto;*/
-        /*    display: inline-block;*/
-        /*    background: #f4f4f9;*/
-        /*    outline: none;*/
-        /*    font-family: Courier, sans-serif;*/
-        /*    font-size: 14px;*/
-        /*}*/
-
         iframe {
+            top: 100;
             bottom: 0;
             position: relative;
             width: 100%;
-            height: 15em;
+            height: 10em;
+            float: top;
+            min-height: 500px;
+            overflow: scroll;
+            margin: auto;
+            display: inline-block;
+            background: #f4f4f9;
+            outline: #00A7AA;
+            font-family: Courier, sans-serif;
+            font-size: 14px;
+            color: red;
         }
     </style>
 </head>
 
 <body>
-<textarea id="html" align="left"><h1>되냐</h1></textarea>
-<p1>css </p1>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-4">
+                <p1>html </p1>
+                <textarea id="html" align="left" ><h1>되냐</h1></textarea>
+            </div>
 
-<textarea id="css" placeholder="CSS">h1{ color: red };</textarea>
-<p1> javascript</p1>
+            <div class="col-4">
+                <p1>css </p1>
+                <textarea id="css" placeholder="CSS">h1{ color: red };</textarea>
+            </div>
 
-<textarea id="js" placeholder="JavaScript"> </textarea>
-
-<iframe id="code"></iframe>
-<p1>https://enlight.nyc/projects/code-editor</p1>
-
+            <div class="col-4">
+                <p1> javascript</p1>
+                <textarea id="js" placeholder="JavaScript"> </textarea>
+            </div>
+        </div>
+        <div class="row">
+            <iframe id="code"></iframe>
+            <p1>https://enlight.nyc/projects/code-editor</p1>
+        </div>
+    </div>
 <script>
     var html = document.getElementById("html");
     var css = document.getElementById("css");
     var js = document.getElementById("js");
     var code = document.getElementById("code").contentWindow.document;
-    console.log(html.value);
     document.body.onkeyup = function() {
         code.open();
         let text = "";
@@ -77,28 +86,22 @@
             text3 = text3 + editor3.display.view[ii].line.text;
 
         };
-
         code.writeln( text + "<"+'style'+">" + text2 + '<'+"/style"+'>' + "<"+'script'+">" + text3 + '<'+"/script"+'>' );
         code.close();
-        //console.log( editor.display.view.line.text);
-
         //let acc = editor.display.view.reduce((acc,result)=>{
          //   acc = acc + result.line.text;
         //}, acc="");
 
-
         //editor.display.view.forEach(obj=>{
         //    text = text + obj.line.text;
         //});
-        console.log(text);
-        [{}]
     };
-
     var editor = CodeMirror.fromTextArea(document.getElementById("html"), {
         lineNumbers: true,
         mode: "text/html",
         matchBrackets: true,
-        autocomplete: true
+        autocomplete: true,
+        theme: "dracula",
     });
     var editor2 = CodeMirror.fromTextArea(document.getElementById("css"), {
         lineNumbers: true,
@@ -110,7 +113,6 @@
         mode: "text/javascript",
         matchBrackets: true
     });
-
 </script>
 </body>
 </html>
