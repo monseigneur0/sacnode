@@ -2,27 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3714c347-c28e-4150-ad74-a12b03464749" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/codeflask.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/codemirror/AUTHORS" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/codemirror/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/codemirror/CONTRIBUTING.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/codemirror/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/codemirror/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/codemirror/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/codemirror/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/codemirror/rollup.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/editor61.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/editor9.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/editor91.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/editor92.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/editor93.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/editor95.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/new1.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/new2.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app_editor.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_editor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/editor4.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/editor4.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/editor6.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/editor6.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/editor7.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/editor7.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/editor8.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/editor8.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/prism_light.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/prism_light.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/editor61.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/editor61.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/editor91.ejs" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +66,9 @@
       <updated>1637813638377</updated>
       <workItem from="1637813640630" duration="6109000" />
       <workItem from="1638245811818" duration="13930000" />
-      <workItem from="1638262768108" duration="2441000" />
+      <workItem from="1638262768108" duration="2466000" />
+      <workItem from="1638265646715" duration="53000" />
+      <workItem from="1638420443436" duration="12043000" />
     </task>
     <servers />
   </component>

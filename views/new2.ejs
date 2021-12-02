@@ -1,0 +1,34 @@
+<!doctype html>
+
+<title>CodeMirror</title>
+<meta charset="utf-8"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<link rel=stylesheet href="static/codemirror/lib/codemirror.css">
+<link rel=stylesheet href="static/codemirror/doc/docs.css">
+<script src="static/codemirror/lib/codemirror.js"></script>
+<script src="static/codemirror/mode/xml/xml.js"></script>
+<script src="static/codemirror/mode/javascript/javascript.js"></script>
+<script src="static/codemirror/mode/css/css.js"></script>
+<script src="static/codemirror/mode/htmlmixed/htmlmixed.js"></script>
+<script src="static/codemirror/addon/edit/matchbrackets.js"></script>
+<script src="static/codemirror/doc/activebookmark.js"></script>
+
+<style>
+    .CodeMirror { height: auto; border: 1px solid #ddd; }
+    .CodeMirror-scroll { max-height: 200px; }
+</style>
+
+<h2>This is CodeMirror</h2>
+<textarea id=demotext>
+<h1>되네</h1>
+            </textarea>
+<script>
+    var editor = CodeMirror.fromTextArea(document.getElementById("demotext"), {
+        lineNumbers: true,
+        mode: "text/html",
+        matchBrackets: true
+    });
+
+
+</script>

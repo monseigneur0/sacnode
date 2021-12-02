@@ -21,7 +21,7 @@ app.get( '/form', ( req, res )   => {
 app.get( '/form4', ( req, res )   => {
     res.render( 'editor4' );
 });
-
+//simple and free
 app.get( '/form6', ( req, res )   => {
     res.render( 'editor6' );
 });
@@ -45,9 +45,22 @@ app.get( '/form9', ( req, res )   => {
 app.get( '/form92', ( req, res )   => {
     res.render( 'editor92' );
 });
+app.get( '/form93', ( req, res )   => {
+    res.render( 'editor93' );
+});
+app.get( '/form95', ( req, res )   => {
+    res.render( 'editor95' );
+});
 
 app.get( '/form5', ( req, res )   => {
     res.render( 'editor5' );
+});
+
+app.get( '/new1', ( req, res )   => {
+    res.render( 'new1' );
+});
+app.get( '/new2', ( req, res )   => {
+    res.render( 'new2' );
 });
 
 const currentDirectory = __dirname
