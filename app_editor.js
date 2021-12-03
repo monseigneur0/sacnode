@@ -62,6 +62,9 @@ app.get( '/new1', ( req, res )   => {
 app.get( '/new2', ( req, res )   => {
     res.render( 'new2' );
 });
+app.get( '/flat', ( req, res )   => {
+    res.render( 'editorflatdesign' );
+});
 
 const currentDirectory = __dirname
 console.log(currentDirectory)
