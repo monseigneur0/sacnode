@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3714c347-c28e-4150-ad74-a12b03464749" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/views/editorflatdesign.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_editor.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_editor.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/new1.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/new1.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,5 +82,17 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$USER_HOME$/Downloads/codemirror-5.64.0/demo/complete.html</url>
+          <line>82</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
