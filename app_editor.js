@@ -59,6 +59,15 @@ app.get( '/form5', ( req, res )   => {
 app.get( '/new1', ( req, res )   => {
     res.render( 'new1' );
 });
+app.get( '/new1dark', ( req, res )   => {
+    res.render( 'new1dark' );
+});
+app.get( '/fnew1light', ( req, res )   => {
+    res.render( 'fnew1light' );
+});
+app.get( '/fnew1dark', ( req, res )   => {
+    res.render( 'fnew1dark' );
+});
 app.get( '/new2', ( req, res )   => {
     res.render( 'new2' );
 });

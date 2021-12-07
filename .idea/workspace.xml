@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3714c347-c28e-4150-ad74-a12b03464749" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/views/editor93.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/editor95.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/new1.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/new2.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/fnew1dark.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/fnew1light.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/new1dark.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app_editor.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_editor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/editor6.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/editor6.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/editor61.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/editor61.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/editor91.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/new1.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/new1.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
