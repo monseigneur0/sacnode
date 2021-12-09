@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3714c347-c28e-4150-ad74-a12b03464749" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/views/fnew1dark.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/fnew1light.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/new1dark.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_editor.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_editor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/new1.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/new1.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/codemirror/lib/codemirror.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/codemirror/lib/codemirror.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/fnew1dark.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/fnew1dark.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/fnew1light.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/fnew1light.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +64,7 @@
       <workItem from="1638262768108" duration="2466000" />
       <workItem from="1638265646715" duration="53000" />
       <workItem from="1638420443436" duration="12043000" />
+      <workItem from="1639021879747" duration="4691000" />
     </task>
     <servers />
   </component>
