@@ -16,7 +16,8 @@
  <img width="2160" alt="스크린샷 2021-12-28 오후 4 23 02" src="https://user-images.githubusercontent.com/82815356/147539727-45269a64-25fa-42b6-983a-9279dbc35091.png">
 
   - 자동 HTML 테그 닫기
-![codeeditor mp4](https://user-images.githubusercontent.com/82815356/147539634-741a1af8-bf7e-4ef8-b99d-280500040cde.gif)
+
+  ![codeeditor mp4](https://user-images.githubusercontent.com/82815356/147539634-741a1af8-bf7e-4ef8-b99d-280500040cde.gif)
 
   - 단어 자동 추천 및 채우기
 <img width="2160" alt="스크린샷 2021-12-28 오후 4 15 58" src="https://user-images.githubusercontent.com/82815356/147539204-bad022fa-f7a3-47c1-bbea-402324bc2bb3.png">
